@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { AuthProvider } from "./context/AuthContext";
 import Home from "./pages/Home";
 import Listing from "./pages/Listing";
 import AddProperty from "./pages/AddProperty";
@@ -9,6 +10,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
+    <AuthProvider>
     <BrowserRouter>
     <Header />
     <Routes>
@@ -20,5 +22,6 @@ export default function App() {
     </Routes>
     <Footer />
     </BrowserRouter>
+    </AuthProvider>
   )
 }
