@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# OS / IDE / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+.out/
+.next/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Coverage & reports
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.bak
+*.tmp
