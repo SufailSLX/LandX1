@@ -35,7 +35,7 @@ const Header = () => {
         <div className='flexBetween py-3'>
           {/* logo  */}
           <Link to={'/'}>
-          <span className='font-[900] text-[24px]'>LanD<span className='font-[600] medium-20'>X</span>
+          <span className='font-[900] text-[24px]'>Land<span className='font-[600] medium-20'>X</span>
           </span>
           </Link>   
           {/* navbar      */}
